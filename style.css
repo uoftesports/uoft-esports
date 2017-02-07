@@ -1,0 +1,119 @@
+html{
+	background:url(img/skyline.jpg);
+}
+
+body{
+	color:#999;
+	background: white;
+	font-size:19px;
+	overflow-x:hidden;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.jumbotron{
+	width:100%;
+	background-color:rgba(0,0,0,0);
+	padding:40px 0 0 0;
+}
+
+.glyphicon-menu-down{
+	font-size:2em;
+	transition:0.3s;
+}
+
+#logo{
+	background-color:rgba(255,255,255,0.8);
+	border-radius:20px;
+	width:400px;
+	height:auto;
+}
+
+#games{
+	width:;
+	/*background-color:rgba(0,0,0,0.7);*/
+	padding:20px;
+	border-radius:20px;
+}
+
+#clubs{
+	font-family: 'Viga', sans-serif;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.club{
+	padding-left:25px;
+	padding-right:25px;
+	transition:0.3s;
+	color:#999;
+}
+
+.club:hover{
+	opacity:0.6;
+}
+
+#clubs a{
+	text-decoration:none;
+}
+#hoverblob{
+	bottom:40px;
+	margin-left:-200px;
+	position:absolute;
+	width:400px;
+	z-index:-100;
+}
+
+#about{
+	width:400px;
+	height:auto;
+	text-overflow:wrap;
+}
+#title{
+	font-family: 'Viga', sans-serif;
+	color:white;
+}
+
+.gamepic{
+	width:100px;
+	margin-bottom:-20px;
+}
+
+.container {
+	padding:0;  
+}
+
+#bottom{
+	/*background-color:rgba(0,0,0,0.7);*/
+	padding:20px;
+	flex-direction:row;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+#fb, #discord, #insta{
+	width:50px;
+	height:auto;
+	margin-top:-20px;
+	padding:10px;
+	transition:0.3s;
+}
+
+#discord{
+	width:60px;
+	height:auto;
+}
+
+#fb:hover, #discord:hover, #insta:hover{
+	opacity:0.6;
+}
+
+#visit{
+	margin-top:30px;
+}
